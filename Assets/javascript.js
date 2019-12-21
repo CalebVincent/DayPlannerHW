@@ -1,5 +1,5 @@
 // display time date + date in jumbotron
-
+$(document).ready(function () {
 // store html reference in variable
 var currentDayEl = $("#currentDay");
 var inputBlockEl = $(".time-block");
@@ -47,4 +47,4 @@ saveBtns.on("click", function (event) {
         localStorage.clear();
         $(".description").text("");
     });
-
+})
