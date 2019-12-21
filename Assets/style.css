@@ -27,7 +27,7 @@ body {
   
   .time-block{
     text-align: center;
-    border-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
   }
   
   .row {
@@ -63,13 +63,32 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
-  
-  .container {
+
+  img {
+    margin-right: 15px;
+  }
+
+  .saveDiv {
     background: #06AED5;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  textarea {
+    float: left;
+  }
+
+  .currentTime {
+    border-top: dashed 1px;
+  }
+
+  .description {
+    width: 95%;
   }
